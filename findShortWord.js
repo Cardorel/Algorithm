@@ -9,7 +9,6 @@ function findShort(s){
              }else if(tmp.length == val.length){
                  acc = val.length; 
                  tmp = val;
-               console.log(tmp);
              }
       return acc;
     } , 0)

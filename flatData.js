@@ -11,6 +11,8 @@ let flatData = data.reduce((accumulate , value) => {
   return accumulate;
 }, []);
 
+
+
 const countEach = flatData.reduce((acc , value) => {
     acc[value] = (acc[value] || 0) + 1 
     return acc;
